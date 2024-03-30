@@ -1,0 +1,67 @@
+:root 
+{
+    --color-1: hsl(192, 100%, 9%);
+    --color-2: hsl(322, 100%, 66%);
+    --color-3:white;
+}
+
+
+body {
+    margin:0;
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-1);
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 1.125rem;
+    line-height: 1.66;
+}
+
+h3 
+{
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+
+.btn {
+    border:none;
+    font-weight: bold;
+}
+
+.btn-1 
+{
+    background-color: var(--color-3);
+    color: inherit;
+    padding: .5em 2.2em;
+}
+
+.btn-2{
+    padding: .85em 5em;
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+
+.btn-3 {
+    padding: 1.2em 5em;
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+
